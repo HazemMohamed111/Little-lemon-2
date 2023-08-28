@@ -1,31 +1,31 @@
 import LOGO1 from "../Logo.png"
 function Footer() {
     return (
-    <footer>
-        <div>
-            <ul>
-                <img src={LOGO1} alt="Logo"></img>
-                <li><p>navigation</p></li>
-                <li><a href='/home'>home</a></li>
-                <li><a href='./about'>specials</a></li>
-                <li><a href='./special'>Testimonials</a></li>
-                <li><a href='./rservation'>About</a></li>
+    <footer class= "grid grid-cols-4 py-8 pl-10 lg:grid-cols-12   ">
+            <img class="col-span-2 md:col-span-1 justify-self-center lg:col-start-3 lg:col-span-2 " src={LOGO1} alt="Logo"></img>
+        <div class=" col-span-2 md:col-span-1 justify-self-center lg:col-span-2">
+            <ul class=" ">
+                <li class="font-Inika text-[16px] md:text-[30px] "><p>Navigation</p></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5]   "><a href='/home'>Home</a></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5]   "><a href='./about'>Specials</a></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5]   "><a href='./special'>Testimonials</a></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5]   "><a href='./rservation'>About</a></li>
+            </ul> 
+        </div>
+        <div class="col-span-2 md:col-span-1 justify-self-center lg:col-span-2">
+            <ul class=" ">
+                <li class="font-Inika text-[16px] md:text-[30px] "><p>Contacts</p></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5] "><a href='./Address'>Address</a></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5] "><a href='./Phone'>Phone</a></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5] "><a href='./Email'>Email</a></li>
             </ul>
         </div>
-        <div>
-            <ul>
-                <li><p>Contacts</p></li>
-                <li><a href='./Address'>Address</a></li>
-                <li><a href='./Phone'>Phone</a></li>
-                <li><a href='./Email'>Email</a></li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li><p>Social Media</p></li>
-                <li><a href='./Facebok'>Facebook</a></li>
-                <li><a href='./Instagram'>instagrm</a></li>
-                <li><a href='./whatsapp'>Whats app</a></li>
+        <div class="col-span-2 md:col-span-1 justify-self-center lg:col-span-2" >
+            <ul class=" ">
+                <li class="font-Inika text-[16px] md:text-[30px]  "><p>Social Media</p></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5] "><a href='./Facebok'>Facebook</a></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5] "><a href='./Instagram'>Instagrm</a></li>
+                <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5] "><a href='./whatsapp'>Whats App</a></li>
             </ul>
         </div>
     </footer>
