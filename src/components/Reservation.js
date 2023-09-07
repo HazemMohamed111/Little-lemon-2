@@ -24,7 +24,7 @@ function Reservation() {
             <fieldset >
             <div className="grid my-[13px] md:my-[13px] lg:grid-cols-12  ">
                 <label class=" text-[14px] order-1 text-[#F4CE14] md:text-[24px] lg:col-span-6 lg:text-[22px]">Select Branch *</label>
-                <select name="branches" class=" text-[14px] rounded-[20px] bg-[#F4CE14] text-center order-1 border-[1px] border-black md:text-[26px] md:border-[2px] lg:col-span-6 lg:text-[22px]  ">
+                <select name="branches" class=" text-[14px] bg-[#F4CE14] text-center order-1 border-[1px] border-black md:text-[26px] md:border-[2px] lg:col-span-6 lg:text-[22px]  ">
                     <option value="Mall1">Mall Of Arabia</option>
                     <option value="Mall2">Mall Of Egypt</option>
                     <option value="Mall3">Mall Elbostan</option>
@@ -33,7 +33,7 @@ function Reservation() {
             </div>
             <div className="grid grid-cols-4 md:grid-cols-8">
                 <label class=" text-[14px] order-2 col-span-2 text-[#F4CE14] md:col-span-4 md:text-[26px] lg:text-[22px]" >Select Date *</label>
-                <select name="times" class=" text-center text-[14px]  rounded-[20px] col-span-2 bg-[#F4CE14] order-2 border-[1px] border-black md:col-span-4 md:border-[2px] md:text-[26px] lg:text-[22px] ">
+                <select name="times" class=" text-center text-[14px] col-span-2 bg-[#F4CE14] order-2 border-[1px] border-black md:col-span-4 md:border-[2px] md:text-[26px] lg:text-[22px] ">
                     <option value="time1">2:00 PM</option>
                     <option value="time2">3:00 PM</option>
                     <option value="time3">4:00 PM</option>
@@ -45,14 +45,14 @@ function Reservation() {
             </div>
             <div className="grid grid-cols-4 my-[13px] ">
                 <label class=" text-[14px] order-1 text-[#F4CE14] col-span-2 md:text-[26px] lg:text-[22px]">Select Time *</label>
-                <select name="timess" class=" text-[14px] col-span-2 rounded-[20px] text-center bg-[#F4CE14] order-5 border-[1px] border-black md:border-[2px] md:text-[26px] lg:text-[22px] ">
+                <select name="timess" class=" text-[14px] col-span-2 text-center bg-[#F4CE14] order-2 border-[1px] border-black md:border-[2px] md:text-[26px] lg:text-[22px] ">
                     <option value="Lunch">Lunch</option>
                     <option value="Dinner">Dinner</option>
                     </select>
             </div>
             <div className="grid grid-cols-4 ">
                 <label class=" text-[14px] text-[#F4CE14] order-1 col-span-2 md:text-[26px] lg:text-[22px]">Guests Number *</label>
-                <select name="guests" class=" text-[14px] rounded-[20px] col-span-2 text-center bg-[#F4CE14] order-5 border-[1px] border-black md:border-[2px] md:text-[26px] lg:text-[22px] ">
+                <select name="guests" class=" text-[14px] col-span-2 text-center bg-[#F4CE14] order-5 border-[1px] border-black md:border-[2px] md:text-[26px] lg:text-[22px] ">
                     <option value="num1">2</option>
                     <option value="num2">3</option>
                     <option value="num3">4</option>
@@ -66,7 +66,7 @@ function Reservation() {
             </div>
             <div className="grid grid-cols-4 my-[13px] md:my-[13px]">
                 <label htmlFor="name"  class=" text-[14px] text-[#F4CE14] md:text-[26px] lg:text-[22px] ">Name *</label>
-                <input class=" text-[14px] rounded-[20px] col-span-3 bg-[#F4CE14] order-6 border-[1px] border-black md:border-[2px] md:text-[26px] lg:col-span-2 lg:col-start-3 lg:text-[22px] "
+                <input class=" text-[14px] col-span-3 bg-[#F4CE14] order-6 border-[1px] border-black md:border-[2px] md:text-[26px] lg:col-span-2 lg:col-start-3 lg:text-[22px] "
                 id="name"
                 type="text"
                 placeholder=""
@@ -76,7 +76,7 @@ function Reservation() {
             </div>
             <div className="grid grid-cols-4">
                 <label htmlFor="email" class=" text-[14px] md:text-[26px] lg:text-[22px] text-[#F4CE14] ">Email *</label>
-                <input class=" text-[14px] rounded-[20px] col-span-3 bg-[#F4CE14]  border-[1px] border-black md:border-[2px] md:text-[26px] lg:col-span-2 lg:col-start-3 lg:text-[22px] "
+                <input class=" text-[14px] col-span-3 bg-[#F4CE14]  border-[1px] border-black md:border-[2px] md:text-[26px] lg:col-span-2 lg:col-start-3 lg:text-[22px] "
                 id="email"
                 type="email"
                 placeholder=""
@@ -86,7 +86,7 @@ function Reservation() {
             </div>
             <div className="grid grid-cols-4 my-[13px] md:my-[13px]">
                 <label class=" text-[14px] col-span-2 text-[#F4CE14] md:text-[26px] lg:text-[22px]">Phone Number *</label>
-                <input htmlFor="Phone Number"  class=" text-[14px] rounded-[20px] bg-[#F4CE14] col-span-2  border-[1px] border-black md:border-[2px] md:text-[26px] lg:text-[22px] "
+                <input htmlFor="Phone Number"  class=" text-[14px] bg-[#F4CE14] col-span-2  border-[1px] border-black md:border-[2px] md:text-[26px] lg:text-[22px] "
                 id="Phone"
                 type="phone"
                 placeholder=""
@@ -96,7 +96,7 @@ function Reservation() {
             </div>
             <div className="grid grid-cols-4">
                 <label class=" text-[14px] col-span-4 text-[#F4CE14] md:text-[26px] lg:text-[22px]">special Instruction *</label>
-                <textarea class=" text-[14px] bg-[#F4CE14] col-span-4 h-16 rounded-[20px] border-[1px] border-black md:border-[2px] md:text-[26px] md:h-52 lg:text-[22px] lg:h-28 "
+                <textarea class=" text-[14px] bg-[#F4CE14] col-span-4 h-16 border-[1px] border-black md:border-[2px] md:text-[26px] md:h-52 lg:text-[22px] lg:h-28 "
                 placeholder=""
                 value={comment}
                 onChange={(e)=>setComment(e.target.value)}></textarea>
