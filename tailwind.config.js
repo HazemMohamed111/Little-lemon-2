@@ -9,6 +9,7 @@ module.exports = {
     "./src/components/Testm.js",
     "./src/components/Undernav.js",
     "./src/components/Reservation.js",
+    "./src/components/HomePage.js",
   ],
   theme: {
     extend: {},

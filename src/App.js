@@ -4,7 +4,7 @@ import Reserve from "./components/Reservation"
 function App() {
   return (
     <>
-     <Reserve/>
+    <Reserve/>
     </>
   );
 }

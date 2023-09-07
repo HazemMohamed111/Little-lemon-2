@@ -32,22 +32,19 @@ function Reservation() {
                 </select>
             </div>
             <div className="grid grid-cols-4 md:grid-cols-8">
-                <label class=" text-[14px] order-2 col-span-2 text-[#F4CE14] md:col-span-4 md:text-[26px] lg:text-[22px]" >Select Date *</label>
-                <select name="times" class=" text-center text-[14px] col-span-2 bg-[#F4CE14] order-2 border-[1px] border-black md:col-span-4 md:border-[2px] md:text-[26px] lg:text-[22px] ">
-                    <option value="time1">2:00 PM</option>
-                    <option value="time2">3:00 PM</option>
-                    <option value="time3">4:00 PM</option>
-                    <option value="time4">5:00 PM</option>
-                    <option value="time5">6:00 PM</option>
-                    <option value="time6">7:00 PM</option>
-                    <option value="time7">8:00 PM</option>
-                </select>
+                <label class=" text-[14px] order-1 col-span-2 text-[#F4CE14] md:col-span-4 md:text-[26px] lg:text-[22px]" >Select Date *</label>
+                <input className=" text-[14px] col-span-2 text-center bg-[#F4CE14] order-6 border-[1px] border-black md:border-[2px] md:col-span-4 md:text-[26px] lg:col-start-5 lg:col-span-4  lg:text-[22px] "
+                type="date" id="res-date"/>
             </div>
             <div className="grid grid-cols-4 my-[13px] ">
                 <label class=" text-[14px] order-1 text-[#F4CE14] col-span-2 md:text-[26px] lg:text-[22px]">Select Time *</label>
                 <select name="timess" class=" text-[14px] col-span-2 text-center bg-[#F4CE14] order-2 border-[1px] border-black md:border-[2px] md:text-[26px] lg:text-[22px] ">
-                    <option value="Lunch">Lunch</option>
-                    <option value="Dinner">Dinner</option>
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                    <option>20:00</option>
+                    <option>21:00</option>
+                    <option>22:00</option>
                     </select>
             </div>
             <div className="grid grid-cols-4 ">
@@ -62,6 +59,14 @@ function Reservation() {
                     <option value="num7">8</option>
                     <option value="num8">9</option>
                     <option value="num9">10</option>
+                    </select>
+            </div>
+            <div className="grid grid-cols-4 my-[13px] ">
+                <label class=" text-[14px] order-1 text-[#F4CE14] col-span-2 md:text-[26px] lg:text-[22px]">Occasion *</label>
+                <select name="timess" class=" text-[14px] col-span-2 text-center bg-[#F4CE14] order-2 border-[1px] border-black md:border-[2px] md:text-[26px] lg:text-[22px] ">
+                    <option>Anniversary</option>
+                    <option>Birthday</option>
+                    <option className=" lg:text-[14px]">other! write it in the special instruction</option>
                     </select>
             </div>
             <div className="grid grid-cols-4 my-[13px] md:my-[13px]">

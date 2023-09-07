@@ -1,7 +1,7 @@
 import LOGO1 from "../Logo.png"
 function Footer() {
     return (
-    <footer class= "grid grid-cols-4 py-8 pl-10 lg:grid-cols-12   ">
+    <footer class= "grid grid-cols-4 py-8 pl-10 lg:grid-cols-12 bg-[#EE9972] text-[#495e57]">
             <img class="col-span-2 md:col-span-1 justify-self-center lg:col-start-3 lg:col-span-2 " src={LOGO1} alt="Logo"></img>
         <div class=" col-span-2 md:col-span-1 justify-self-center lg:col-span-2">
             <ul class=" ">
@@ -10,7 +10,7 @@ function Footer() {
                 <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5]   "><a href='./about'>Specials</a></li>
                 <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5]   "><a href='./special'>Testimonials</a></li>
                 <li class="font-Inika text-[14px] md:text-[26px] hover:text-[#7091F5]   "><a href='./rservation'>About</a></li>
-            </ul> 
+            </ul>
         </div>
         <div class="col-span-2 md:col-span-1 justify-self-center lg:col-span-2">
             <ul class=" ">
