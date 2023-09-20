@@ -1,8 +1,8 @@
-import Header from'./Header.js';
-import Undernav from './Undernav';
-import Footer from'./Footer.js';
-import Testm from './Testm';
-import Card from './Card';
+import Header from'../components/Header.js';
+import Undernav from '../components/Undernav.js';
+import Footer from'../components/Footer.js';
+import Testm from '../components/Testm.js';
+import Card from '../components/Card.js';
 import img1 from '../photos/greek salad.jpg';
 import img2 from '../photos/bruchette.png';
 import img3 from '../photos/lemon dessert.jpg';
@@ -11,7 +11,7 @@ import pic1 from '../pic/1.jpg';
 import pic2 from '../pic/2.jpg';
 import pic3 from '../pic/4.jpg';
 import pic4 from '../pic/5.jpg';
-import About from './About';
+import About from '../components/About.js';
 function HomePage() {
   return (
   <>

@@ -3,6 +3,8 @@ import Basket from "../icons/basket.png"
 import Ham from "../icons/Hamburger.png"
 import X from "../icons/close.png"
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 function Header() {
     const [sidebar,setSidebar] = useState(false)
@@ -15,10 +17,10 @@ function Header() {
             <img src={LOGO} alt="Logo" className="lg:justify-self-start lg:col-start-3 lg:col-span-2 object-fill lg:order-1 md:order-2 md:col-start-2 justify-self-center  md:col-span-6 order-2 col-span-2 col-start-2 "></img>
             <nav className="lg:col-start-5 lg:col-end-10  lg:order-2 md:hidden hidden lg:block">
                 <ul className=" lg:flex md:hidden hidden lg:items-center ">
-                    <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='/home' >home</a></li>
+                    <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><Link to={"/"}>home</Link></li>
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./about'  >About</a></li>
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./special'  >Menu</a></li>
-                    <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./rservation'>Reservations</a></li>
+                    <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><Link to={"Booking"}>Reservations</Link></li>
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./orderonline'  >Order Online</a></li>
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./login'  >Login</a></li>
                 </ul>
