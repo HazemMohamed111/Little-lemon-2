@@ -20,7 +20,7 @@ function Header() {
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><Link to={"/"}>home</Link></li>
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./about'  >About</a></li>
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./special'  >Menu</a></li>
-                    <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><Link to={"Booking"}>Reservations</Link></li>
+                    <li class=" font-Intika text-xl  text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><Link to={"Booking"}>Reservations</Link></li>
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./orderonline'  >Order Online</a></li>
                     <li class=" font-Intika text-xl text-[#495E57] hover:text-[#7091F5] lg:mr-16 lg:capitalize"><a href='./login'  >Login</a></li>
                 </ul>

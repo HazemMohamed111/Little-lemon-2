@@ -24,10 +24,6 @@ const initTimeSlots = (initAvaliableTimeSlots) => {
     };
 }
 
-
-
-
-
 const BookingPage = ()=>{
     
     const [
@@ -35,12 +31,10 @@ const BookingPage = ()=>{
     dispatchTimeslotsOnDateChange
     ] = useReducer(updateTimeSlots, {morning: [], afternoon: [], evening: []}, initTimeSlots);
 
-
   // Handler Function to submit the reservation data to the server
     const submitReservation = (reservation) => {
       submitAPI(reservation);
   }
-
 
     return(
         <>
